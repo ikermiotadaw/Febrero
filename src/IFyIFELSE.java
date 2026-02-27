@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VideoconferenciaS01C02 {
+public class IFyIFELSE {
     public static void main(String[] args) {
         final int EDAD_MINIMA=18;
         final int IMPORTE_ENTRADA=20;
