@@ -11,7 +11,7 @@ public class VideoconferenciaS01C02 {
         if (edad>=EDAD_MINIMA) {
             System.out.println("Puedes entrar al local");
             System.out.println("Ahora puedes pagar los "+IMPORTE_ENTRADA+"€ de entrada");
-            int pagoEntrada = input.nextInt();
+            float pagoEntrada = input.nextFloat();
             input.nextLine();
             if (pagoEntrada>=IMPORTE_ENTRADA)
                 System.out.println("Puedes entral local. Tu cambio es: "+( pagoEntrada-20 )+"euros.");
